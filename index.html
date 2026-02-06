@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniGrow - Destek</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #FFF5F7;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .header h1 {
+            font-size: 32px;
+            color: #E91E63;
+            margin-bottom: 8px;
+        }
+        .header p {
+            font-size: 16px;
+            color: #666;
+        }
+        .section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .section h2 {
+            font-size: 22px;
+            color: #E91E63;
+            margin-bottom: 16px;
+        }
+        .section p {
+            margin-bottom: 12px;
+            color: #444;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            background: #FFF5F7;
+            border-radius: 12px;
+        }
+        .contact-item span {
+            font-size: 20px;
+        }
+        .contact-item a {
+            color: #E91E63;
+            text-decoration: none;
+        }
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+        .faq-item {
+            border-bottom: 1px solid #f0f0f0;
+            padding: 16px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .faq-item h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 0;
+        }
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+        .features-list li {
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+            color: #444;
+        }
+        .features-list li::before {
+            content: "•";
+            color: #E91E63;
+            font-weight: bold;
+            position: absolute;
+            left: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 48px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MiniGrow</h1>
+            <p>Bebek Gelisim & Takip Uygulamasi</p>
+        </div>
+
+        <div class="section">
+            <h2>Uygulama Hakkinda</h2>
+            <p>MiniGrow, 0-24 ay arasi bebegi olan ebeveynler icin gelistirilmis kapsamli bir bebek takip uygulamasidir. Bebeginizin beslenme, uyku, alt degistirme rutinlerini kolayca takip edebilir, buyume verilerini kaydedebilir ve gelisim surecleri hakkinda bilgi edinebilirsiniz.</p>
+            <ul class="features-list">
+                <li>Beslenme (emzirme & mama) takibi</li>
+                <li>Uyku takibi ve duzeni</li>
+                <li>Alt degistirme kayitlari</li>
+                <li>Boy-kilo gelisim grafikleri</li>
+                <li>Atak haftalari bilgilendirmesi</li>
+                <li>Haftalik & aylik gelisim icerikleri</li>
+                <li>Asi takvimi takibi</li>
+                <li>AI destekli bebek danismani</li>
+                <li>Notlar ve anilar</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Iletisim & Destek</h2>
+            <p>Sorulariniz, onerileriniz veya teknik sorunlariniz icin bizimle iletisime gecebilirsiniz.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>&#9993;</span>
+                    <div>
+                        <strong>E-posta</strong><br>
+                        <a href="mailto:minigrowapp@gmail.com">minigrowapp@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <p style="margin-top: 16px; font-size: 14px; color: #666;">Destek taleplerine genellikle 48 saat icinde yanit verilmektedir.</p>
+        </div>
+
+        <div class="section">
+            <h2>Sikca Sorulan Sorular</h2>
+
+            <div class="faq-item">
+                <h3>Verilerim guvenli mi?</h3>
+                <p>Evet. Tum verileriniz cihazinizda yerel olarak saklanir. Verileriniz hicbir sunucuya gonderilmez ve ucuncu taraflarla paylasilmaz.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Bebek danismani nasil calisiyor?</h3>
+                <p>Bebek danismani, yapay zeka destekli bir ozellik olup genel bilgilendirme amaclidir. Reklam izleyerek soru hakki kazanabilir ve bebeginizle ilgili sorular sorabilirsiniz. Tibbi tavsiye yerine gecmez, saglik konularinda mutlaka doktorunuza danisiniz.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Uygulama ucretli mi?</h3>
+                <p>MiniGrow ucretsiz olarak indirilebilir ve kullanilabilir. Uygulama icinde reklamlar gosterilmektedir.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Birden fazla bebek ekleyebilir miyim?</h3>
+                <p>Su an icin uygulama tek bebek profili desteklemektedir. Birden fazla bebek destegi gelecek guncellemelerde planlanmaktadir.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Verilerimi nasil yedekleyebilirim?</h3>
+                <p>Verileriniz cihazinizda yerel olarak saklanmaktadir. Uygulamayi silmeden once verilerinizi kaybetmemek icin dikkatli olunuz. Bulut yedekleme ozelligi gelecek guncellemelerde planlanmaktadir.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Bir hata buldum, nasil bildirebilirim?</h3>
+                <p>Hata bildirimleri icin lütfen minigrowapp@gmail.com adresine e-posta gonderiniz. Hatayi aciklayan bir ekran goruntusu eklemeniz sorunu daha hizli cozmemize yardimci olacaktir.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Gizlilik Politikasi</h2>
+            <p>MiniGrow, kullanicilarin gizliligine onem verir.</p>
+            <ul class="features-list">
+                <li>Kisisel verileriniz yalnizca cihazinizda saklanir</li>
+                <li>Ucuncu taraf reklam hizmetleri (Google AdMob) reklam gosterimi icin kullanilmaktadir</li>
+                <li>Bebek danismani ozelligi icin sorulariniz Anthropic Claude API uzerinden islenir</li>
+                <li>Hicbir kisisel veri ucuncu taraflarla pazarlama amacli paylasilmaz</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 MiniGrow. Tum haklari saklidir.</p>
+        </div>
+    </div>
+</body>
+</html>
